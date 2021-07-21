@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <title>ORION</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="common/css/reset.css">
+    <link rel="stylesheet" href="common/css/common.css">
+    
+    <!-- 파비콘설정-->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- 메인 CSS 연결-->
+    <link rel="stylesheet" href="maincss/main.css">
+    
+    <!-- 웹 폰트-->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    
+    <!-- aos효과-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="maincss/jquery.bxslider.css">
+
+    <!--메인 스크립트-->
+    <script src="mainjs/jquery-1.8.3.min.js"></script>
+    <script src="mainjs/script.js"></script>
+
+    <!--탑버튼 스크립트 3개-->
+    <script src="mainjs/slidemove.js"></script>
+    <script src="mainjs/easing.js"></script>
+    <script src="mainjs/tab.js"></script>
+    <script src="mainjs/move-top.js"></script>
+
+    <!-- aos효과-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="mainjs/responsiveslides.min.js"></script>
+
+    <!--  쇼박스,오리온스 슬라이드 스크립트(bxSlider) -->
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <!--  팝업 스크립트-->
+    <script src="mainjs/mainpopup.js"></script>
+
+</head>
+
+<body>
+    <div class="wrap">
+        <header id="headerWrap" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="headerInner">
+                <div class="headerBox">
+                    <h1 id="logo">
+                        <a href="index.html">
+                            <img src="common/images/logo.png" alt="로고이미지">
+                        </a>
+                    </h1>
+                    <nav id="gnb">
+                        <!-- 메인메뉴-->
+                        <ul class="mainMenu">
+                            <li class="depth01"><a href="sub1/sub1_1.html">오리온 소개</a>
+                            </li>
+                            <li class="depth01"><a href="sub2/sub2_1.html">제품 소개</a>
+                            </li>
+                            <li class="depth01"><a href="sub3/sub3_1.html">사업 영역</a>
+                            </li>
+                            <li class="depth01"><a href="#">투자 정보</a>
+                            </li>
+                            <li class="depth01"><a href="sub5/sub5_1.html">고객 서비스</a>
+                            </li>
+                        </ul>
+                        <div class="langSelect">
+                            <a href="javascript:void(0);" class="arrow">KR</a>
+                            <ul class="aList">
+                                <li><a href="#">EN</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                </div>
+            </div>
+
+            <!--네비 풀다운 서브메뉴-->
+            <div class="headerInnerbottom">
+                <div class="submenuWrap">
+                    <div class="submenuInner">
+                        <ul>
+                            <li class="depth02"><a href="sub1/sub1_1.html">핵심가치</a></li>
+                            <li class="depth02"><a href="sub1/sub1_2.html">오리온 역사관</a></li>
+                            <li class="depth02"><a href="#">경영이념</a></li>
+                            <li class="depth02"><a href="https://orion.recruiter.co.kr/appsite/company/index" target="_blank">채용공고</a></li>
+                            <li class="depth02"><a href="#">오시는 길</a></li>
+                        </ul>
+                        <ul>
+                            <li class="depth02"><a href="sub2/sub2_1.html">마켓오</a></li>
+                            <li class="depth02"><a href="#">닥터유</a></li>
+                            <li class="depth02"><a href="#">오리온 브랜드</a></li>
+                            <li class="depth02"><a href="#">제주 용암수</a></li>
+                            <li class="depth02"><a href="http://yumkim.cafe24.com/g5/bbs/board.php?bo_table=PR">홍보</a></li>
+                        </ul>
+                        <ul>
+                            <li class="depth02"><a href="sub3/sub3_1.html">엔터테인먼트</a></li>
+                            <li class="depth02"><a href="#">글로벌사업</a></li>
+                        </ul>
+                        <ul>
+                            <li class="depth02"><a href="#">경영정보</a></li>
+                            <li class="depth02"><a href="#">재무정보</a></li>
+                            <li class="depth02"><a href="#">자료실</a></li>
+                            <li class="depth02"><a href="#">공고</a></li>
+                        </ul>
+                        <ul>
+                            <li class="depth02"><a href="sub5/sub5_1.html">고객의 소리</a></li>
+                            <li class="depth02"><a href="#">불만 및 의견접수</a></li>
+                            <li class="depth02"><a href="sub5/sub5_3.html">자주묻는 질문</a></li>
+                            <li class="depth02"><a href="#">영업소 위치</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="visual">
+            <ul class="slider">
+                <li>
+                    <img src="images/visual_1.jpg" alt="비쥬얼이미지1">
+                </li>
+                <li>
+                    <img src="images/visual_2.jpg" alt="비쥬얼이미지2">
+                </li>
+            </ul>
+            <div class="sliderText" data-aos="fade-up" data-aos-duration="3000">
+                <p class="txtBox">
+                    <span>Creating a sweeter future</span>
+                    <span>through a spirit of innovation!</span>
+                    <span>Innovation 정신으로 더 큰 미래를 향해 나아갑니다.</span>
+                </p>
+            </div>
+            <div class="scrollIcon">
+                <a href="#ct01" class="scroll">스크롤아이콘</a>
+            </div>
+        </div>
+        <section id="contentsWrap">
+            <h2 class="hidden">컨텐츠영역</h2>
+            <article class="ct01" id="ct01">
+                <div class="subTitle" data-aos="fade-up" data-aos-duration="1000">
+                    <h3 class="subtitleText">나는 당신의 情입니다.</h3>
+                </div>
+                <div class="videoWrap">
+                    <video muted autoplay loop>
+                        <source src="video/orion_video.mp4">초코파이영상
+                    </video>
+                </div>
+                <div class="subContents" data-aos="fade-up" data-aos-duration="2000">
+                    <h4 class="subcontentsTitle">세계인의 입맛을 사로잡은 글로벌 파이</h4>
+                    <p class="subcontentsText">
+                        <span>지난해 오리온은 해외시장에서만 1억 9천만달러의 매출을 기록하여 해외 1위의</span>
+                        <span>제과기업입니다. 오리온의 세계화 전략은 '주력시장과 주력제품에의 집중화'로</span>
+                        <span>요약할 수 있으며, 오리온의 주력시장은 중국, 러시아, 베트남 등입니다. 주력</span>
+                        <span>제품은 대표적인 글로벌 브랜드인 '오리온 초코파이'이며, 현재 오리온은 오리온</span>
+                        <span>초코파이를 비롯한 50여종의 제품을 동남아시아, 유럽, 남미, 오세아니아,</span>
+                        <span>아프리카 등 60여개국 (초코파이는 40여개국)에 수출하고 있습니다.</span>
+                    </p>
+                </div>
+            </article>
+            <article class="ct02">
+                <div class="subTitle" data-aos="fade-up" data-aos-duration="1000">
+                    <h3 class="subtitleText">ORION Product</h3>
+                </div>
+                <div class="ct02boxWrap">
+                    <figure class="box1">
+                        <a href="#">
+                            <img src="images/product_1.jpg" alt="닥터유">
+                        </a>
+                        <figcaption>
+                            <a href="sub2/sub2_1.html">
+                                <span class="productName">닥터유</span>
+                                <span class="product">한국인의 생애 주기를 고려한 맞춤 영양 설계로 몸에 좋은 과자</span>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="box2">
+                        <a href="#">
+                            <img src="images/product_2.jpg" alt="제주용암수">
+                        </a>
+                        <figcaption>
+                            <a href="#">
+                                <span class="productName">제주 용암수</span>
+                                <span class="product">
+                                    <span>처음 만나는 내 몸에 맞춘</span>
+                                    <span>미네랄 워터</span>
+                                    <span>국가대표 소믈리에가 개발한 부드럽고 깨끗한 물맛</span>
+                                </span>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="box3">
+                        <a href="#">
+                            <img src="images/product_3.jpg" alt="초코파이정">
+                        </a>
+                        <figcaption>
+                            <a href="#">
+                                <span class="productName">초코파이 정</span>
+                                <span class="product">1974년 출시한 오리온의 영혼이 담긴 제품, 세계 60여국에 수출되며 세계인의 입맛을 사로잡은 초코파이 情</span>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="box4">
+                        <a href="#">
+                            <img src="images/product_4.jpg" alt="마켓오">
+                        </a>
+                        <figcaption>
+                            <a href="#">
+                                <span class="productName4">마켓오</span>
+                                <span class="product4">
+                                    <span>재료의 맛 그대로, 마켓오 제과</span>
+                                    <span>원물 그대로 담은 자연한 끼, 마켓오 네이처</span>
+                                    <span>식재료 본연의 맛을 요리에 담는, 마켓오 레스토랑</span>
+                                </span>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="box5">
+                        <a href="#">
+                            <img src="images/product_5.jpg" alt="초코파이하우스">
+                        </a>
+                        <figcaption>
+                            <a href="#">
+                                <span class="productName">초코파이 하우스</span>
+                                <span class="product">최고급 재료와 파티셰의 레시피로 초코파이를 재해석한 디저트 초코파이</span>
+                            </a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </article>
+            <article class="ct03">
+                <div class="subTitle" data-aos="fade-up" data-aos-duration="1000">
+                    <h3 class="subtitleText">More ORION</h3>
+                </div>
+                <div class="ct03boxWrap">
+                    <div class="prboxWrap">
+                        <div class="prBox">
+                            <figure class="front">
+                                <img src="images/ct03whitebg.png" alt="홍보정보">
+                                <figcaption class="ct03textWrap">
+                                    <h4 class="ct03Icon">PR정보아이콘</h4>
+                                    <h4 class="ct03Title">PR</h4>
+                                    <p class="ct03Contents">다양한 새소식을 만나보세요</p>
+                                </figcaption>
+                            </figure>
+                            <figure class="back">
+                                <img src="images/prbox_bg2.jpg" alt="홍보정보">
+                                <figcaption class="backtextWrap">
+                                    <p class="backText">
+                                        <a href="sub1/sub1_1.html">Read more</a>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="irboxWrap">
+                        <div class="irBox">
+                            <figure class="front">
+                                <img src="images/ct03whitebg.png" alt="IR정보">
+                                <figcaption class="ct03textWrap">
+                                    <h4 class="ct03Icon">IR정보아이콘</h4>
+                                    <h4 class="ct03Title">IR</h4>
+                                    <p class="ct03Contents">주주와 함께 성장하는 오리온</p>
+                                </figcaption>
+                            </figure>
+                            <figure class="back">
+                                <img src="images/irbox_bg.jpg" alt="IR정보">
+                                <figcaption class="backtextWrap">
+                                    <p class="backText">
+                                        <a href="">Read more</a>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="seviceboxWrap">
+                        <div class="serviceBox">
+                            <figure class="front">
+                                <img src="images/ct03whitebg.png" alt="고객서비스정보">
+                                <figcaption class="ct03textWrap">
+                                    <h4 class="ct03Icon">Service아이콘</h4>
+                                    <h4 class="ct03Title">Service</h4>
+                                    <p class="ct03Contents">소비자의 의견을 보내주세요</p>
+                                </figcaption>
+                            </figure>
+                            <figure class="back">
+                                <img src="images/servicebox_bg.jpg" alt="고객서비스정보">
+                                <figcaption class="backtextWrap">
+                                    <p class="backText">
+                                        <a href="#">Read more</a>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="recruitboxWrap">
+                        <div class="recruitBox">
+                            <figure class="front">
+                                <img src="images/ct03whitebg.png" alt="채용정보">
+                                <figcaption class="ct03textWrap">
+                                    <h4 class="ct03Icon">recruit아이콘</h4>
+                                    <h4 class="ct03Title">Recruit</h4>
+                                    <p class="ct03Contents">오리온의 가족이 되어주세요</p>
+                                </figcaption>
+                            </figure>
+                            <figure class="back">
+                                <img src="images/recruitbox_bg2.jpg" alt="채용정보">
+                                <figcaption class="backtextWrap">
+                                    <p class="backText">
+                                        <a href="https://orion.recruiter.co.kr/appsite/company/index" target="_blank">Read more</a>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="ct04">
+                <div class="subTitle" data-aos="fade-up" data-aos-duration="1000">
+                    <h3 class="subtitleText">Ent Business</h3>
+                </div>
+                <div class="ct04boxWrap" data-aos="fade-up" data-aos-duration="2400">
+                    <div class="slideWrap">
+                        <div class="ct04slide">
+                            <figure class="showbox">
+                                <img src="images/showboximg.jpg" alt="쇼박스이미지">
+                                <figcaption class="showboxCt">
+                                    <div class="showboxCtinner">
+                                        <h4>콘텐츠 투자 배급사</h4>
+                                        <h4>SHOWBOX</h4>
+                                        <p>쇼박스는 영화제작, 투자, 배급, 상영의 Total-Solution 제공으로 안정적인 사업구조를 보유하고, 지속적인 서비스로 고객에게 만족을 주기위해 노력하는 기업입니다. 6년 연속 편당 관객 수 1위의 독보적인 기록으로 한국 영화 시장을 리드함은 물론드라마를 비롯한 전방위 콘텐츠 시장으로 사업의 폭을 넓혀 글로벌 역량을 키우고 있습니다.
+                                        </p>
+                                        <a class="showboxBtn" href="sub3/sub3_1.html">
+                                            <span>Read more</span>
+                                        </a>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="ct04slide">
+                            <figure class="goyangorions">
+                                <img src="images/goyangImg.jpg" alt="고양오리온스농구단이미지">
+                                <figcaption class="goyangCt">
+                                    <div class="goyangCtinner">
+                                        <h4>프로 농구단</h4>
+                                        <h4>GOYANG ORIONS</h4>
+                                        <p>고양 오리온스 프로농구단은 스포츠만의 감동, 다양한 서비스와 볼거리를 제공하는 것뿐만 아니라 유소년 농구 활성화와 생활체육 활성화 등을 통한농구 저변화를 위하여 ‘보는 농구’에서 ‘참여하는 농구’로 국민건강 증진과 건강한 여가 선용에 다각적인 노력을 경주하고 있습니다.
+                                        </p>
+                                        <a class="orionsBtn" href="sub3/sub3_1.html">
+                                            <span>Read more</span>
+                                        </a>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="ct05">
+                <div class="subTitle" data-aos="fade-up" data-aos-duration="1000">
+                    <h3 class="subtitleText">SNS</h3>
+                </div>
+                <div class="ct05boxWrap" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="snsBox">
+                        <figure class="snsImg">
+                            <img src="images/sns1.jpg" alt="초코파이 체험단 모집">
+                            <figcaption>
+                                <a href="https://www.instagram.com/p/B57bEetnTvt/" target="_blank">
+                                    <span>초코파이 체험단 모집</span>
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <figure class="snsImg">
+                            <img src="images/sns2.jpg" alt="배배 체험단 모집">
+                            <figcaption>
+                                <a href="https://www.instagram.com/p/B337X4JnXua/" target="_blank">
+                                    <span>배배 체험단 모집</span>
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <figure class="snsImg">
+                            <img src="images/sns3.jpg" alt="투유 우유초콜렛 체험단 모집">
+                            <figcaption>
+                                <a href="https://www.instagram.com/p/B5Zx8BrnaFh/" target="_blank">
+                                    <span>투유 우유초콜렛 체험단 모집</span>
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <figure class="snsImg">
+                            <img src="images/sns4.jpg" alt="제주용암수 이벤트">
+                            <figcaption>
+                                <a href="https://www.instagram.com/p/B5g_U2ZnsxL/" target="_blank">
+                                    <span>제주용암수 이벤트</span>
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <figure class="snsImg">
+                            <img src="images/sns5.jpg" alt="비틀즈 사워 이벤트">
+                            <figcaption>
+                                <a href="https://www.instagram.com/p/B5Bx8YaHmOp/" target="_blank">
+                                    <span>비틀즈 사워 이벤트</span>
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <figure class="snsImg">
+                            <img src="images/sns6.jpg" alt="오리온과 베스킨라빈스 12월 이벤트">
+                            <figcaption>
+                                <a href="https://www.instagram.com/p/B5W0GLAH8TO/" target="_blank">
+                                    <span>베스킨라빈스 콜라보</span>
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <figure class="snsImg">
+                            <img src="images/sns7.jpg" alt="배배 홍보 이미지">
+                            <figcaption>
+                                <a href="https://www.instagram.com/p/B5HmnhhHIsp/" target="_blank">
+                                    <span>배배 이벤트</span>
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <figure class="snsImg">
+                            <img src="images/sns8.jpg" alt="오그래놀라와 닥터유 수능응원">
+                            <figcaption>
+                                <a href="https://www.instagram.com/p/B4ytm93nq5q/" target="_blank">
+                                    <span>오그래놀라 닥터유</span>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <footer id="footerWrap">
+            <div class="footerInner">
+                <div class="footerBox">
+                    <div class="footerTop">
+                        <div class="footerToptxt">
+                            <span><a href="#">법적고지</a></span>
+                            <span><a href="#">개인정보취급방침</a></span>
+                            <span><a href="#">이메일주소수집거부</a></span>
+                        </div>
+                        <div class="footerIcon">
+                            <span><a href="https://www.facebook.com/onlyorion" target="_blank" class="facebook">페이스북</a></span>
+                            <span><a href="https://www.instagram.com/orion_world/" target="_blank" class="insta">인스타그램</a></span>
+                            <span><a href="http://blog.orionworld.com/" target="_blank" class="blog">블로그</a></span>
+                            <span><a href="https://www.youtube.com/channel/UCzK9rR-swgi7f2O_Q0vStjw" target="_blank" class="youtube">유튜브</a></span>
+                        </div>
+                    </div>
+                    <div class="footerBtm">
+                        <address>
+                            <span>서울시 용산구 백범로 90다길 13</span>
+                            <span>전화번호 02-710-6000</span>
+                            <span>상담실 080-023-5700(수신자부담)</span>
+                            <span>제품구입문의 02-710-6083</span>
+                            <span>orionmaster@orionworld.com</span>
+                        </address>
+                        <div class="footerLogo">
+                            <a href="index.html">
+                                <img src="common/images/foot_logo.png" alt="footer로고이미지">
+                            </a>
+                        </div>
+                        <p>COPYRIGHT ORION CORP. ALL RIGHT RESERVED.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <!--TOP 버튼-->
+    <div class="topbtn">
+        <a href="#" id="toTop">
+            <span id="toTopHover"><img src="common/images/top.png" alt="상단으로이동"></span></a>
+    </div>
+    <!--팝업 창-->
+    <div id="showimage" style="z-index:9999;position:absolute;width:322px;left:100px;top:150px;">
+        <script>
+            function closeWin() {
+                var chk = document.getElementById('Notice')
+                if (chk.checked) {
+                    setCookie("Notice", "done", 1); //1이란 숫자는 1일간 안보임을 뜻함.
+                }
+            }
+            if (getCookie("Notice") == "done") {
+                hidebox();
+            }
+
+        </script>
+        <div>
+            <img src="images/popup.jpg" alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다." />
+        </div>
+        <div style="font-size:12px;text-align:center;color:#fff;">
+            <input type="checkbox" name="Notice" id="Notice" value="" title="오늘은 이창을 열지 않음 선택상자"><label for="Notice">오늘은 이창을 열지 않음.</label>
+            <a href="#" onclick="closeWin();hidebox();return false;" style="color:#fff;"> [close] </a>
+        </div>
+    </div>
+    
+    <script>
+        $(document).ready(function() {
+            $('.slideWrap').bxSlider({
+                auto: false,
+                autoControls: true,
+                stopAutoOnClick: true,
+                pager: true,
+                slideWidth: 1100
+            });
+        });
+    </script>
+    
+    <script>
+        $(function() {
+            $(".slider").responsiveSlides();
+        });
+
+    </script>
+    
+    <!-- AOS-->
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
